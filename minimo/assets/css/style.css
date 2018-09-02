@@ -1,0 +1,219 @@
+/* Base CSS */
+
+.alignleft {
+	float: left;
+	margin-right: 15px
+}
+.alignright {
+	float: right;
+	margin-left: 15px
+}
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px
+}
+a:focus {
+	outline: 0 solid
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+input:focus, textarea:focus, select:focus, button {
+	outline: none
+}
+.section-padding {
+	padding: 100px 0 0
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 15px;
+	font-weight: 400
+}
+body {
+	font-family: 'Playfair Display', serif;
+	line-height: 1.7142;
+	color: #626262;
+	font-size: 14px
+}
+a:hover {
+	text-decoration: none
+}
+.blog-meta, .comment-btn, .loadmore-btn {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400
+}
+.fatured-bg-1 {
+	background-image: url(../img/slider-bg-1.jpg)
+}
+.blog-bg-1 {
+	background-image: url(../img/blog-bg-1.jpg)
+}
+.blog-bg-2 {
+	background-image: url(../img/blog-bg-2.jpg)
+}
+.blog-bg-3 {
+	background-image: url(../img/blog-bg-3.jpg)
+}
+.blog-bg-4 {
+	background-image: url(../img/blog-bg-4.jpg)
+}
+.blog-bg-5 {
+	background-image: url(../img/blog-bg-5.jpg)
+}
+.blog-bg-6 {
+	background-image: url(../img/blog-bg-6.jpg)
+}
+.blog-bg-img {
+	background-size: cover;
+	background-color: #ddd;
+	background-position: center;
+	height: 280px;
+	width: 100%
+}
+.blog-fatured-content img {
+	width: 100%
+}
+.mainmenu ul {
+	float: right;
+	list-style: outside none none;
+	margin: 0;
+	padding: 0
+}
+.mainmenu ul li {
+	display: inline-block;
+	padding-left: 90px;
+	position: relative
+}
+.mainmenu li a {
+	color: #626262;
+	display: block;
+	padding: 70px 0;
+	text-transform: uppercase
+}
+.mainmenu li a:hover {
+	opacity: 0.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"
+}
+.logo a {
+	display: inline-block;
+	padding: 10px 0
+}
+.logo img {
+	padding: 60px 0
+}
+.blog-fatured-content.fatured-bg-1 {
+	margin-bottom: 100px
+}
+.blog-meta a {
+	color: #b4ad9e;
+	text-transform: uppercase
+}
+.blog-meta {
+	margin-bottom: 20px
+}
+.single-blog-box h2 {
+	margin-bottom: 35px
+}
+.single-blog-box a h2 {
+	color: #626262
+}
+.single-blog-box {
+	margin-bottom: 100px
+}
+.blog-content p {
+	margin: 0 0 50px
+}
+.comment-btn {
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.comment-btn:hover {
+	color: #b4ad9e;
+	opacity: 0.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"
+}
+.blog-bg-img {
+	margin-bottom: 30px;
+	-webkit-transition: all 0.2s ease 0s;
+	transition: all 0.2s ease 0s;
+}
+.blog-bg-img:hover {
+	opacity: 0.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"
+}
+.newesletter-area {
+	background: #f0f0f0 none repeat scroll 0 0;
+	padding: 70px 0;
+	text-align: center
+}
+.newesletter-area h2 {
+	color: #333;
+	margin-bottom: 60px
+}
+.newesletter-form {
+	border-bottom: 1px solid #333;
+	margin: 0 auto;
+	max-width: 360px;
+	position: relative
+}
+.newesletter-form input[type="email"] {
+	background: #f0f0f0 none repeat scroll 0 0;
+	border: medium none;
+	padding: 10px;
+	width: 100%
+}
+.newesletter-form button {
+	border: medium none;
+	padding: 10px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #F0F0F0
+}
+.loadmore-btn {
+	border: 1px solid #626262;
+	color: #626262;
+	display: inline-block;
+	font-size: 20px;
+	margin-bottom: 90px;
+	padding: 12px 30px
+}
+.loadmore-btn:hover {
+	color: #626262;
+	opacity: 0.8
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+.footer-area {
+	background: #f0f0f0 none repeat scroll 0 0;
+	padding: 40px 0
+}
+.footer-area ul {
+	list-style: outside none none;
+	margin: 0;
+	padding: 0
+}
+.footer-area ul li {
+	display: inline-block;
+	padding-right: 31px
+}
+.footer-area li a {
+	color: #000;
+	font-size: 14px
+}
+.footer-area a {
+	color: #333
+}
+.footer-area i.fa {
+	color: #626262;
+	padding-left: 15px;
+}
+.footer-area sapn {
+	color: green
+}
+.loadmore-btn{
+	transition: .4s;
+}
+.loadmore-btn:hover {
+    background:  #222;
+    color: #fff;
+}

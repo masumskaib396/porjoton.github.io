@@ -1,0 +1,132 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.mainmenu ul li {
+		padding-left: 62px;
+	}
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.mainmenu ul li {
+		padding-left: 75px;
+	}
+	.logo img {
+		padding: 30px 0;
+	}
+	.mainmenu li a {
+		padding: 40px 0;
+	}
+	.blog-fatured-content.fatured-bg-1 {
+		margin-bottom: 70px;
+	}
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	.logo img {
+		padding: 30px 0;
+	}
+	.logo {
+		text-align: center
+	}
+	.logo a {
+		padding: 0;
+	}
+	.mainmenu ul {
+		text-align: center;
+		float: none;
+	}
+	.mainmenu ul li {
+		padding-left: 10px;
+	}
+	.mainmenu li a {
+		padding: 0 0 30px;
+		font-size: 10px;
+	}
+	.blog-fatured-content.fatured-bg-1 {
+		margin-bottom: 60px;
+	}
+	.single-blog-box h2 {
+		margin-bottom: 30px;
+		font-size: 18px;
+	}
+	.blog-content p {
+		margin: 0 0 30px;
+	}
+	.single-blog-box {
+		margin-bottom: 70px;
+	}
+	.section-padding {
+		padding: 80px 0 0;
+	}
+	.loadmore-btn {
+		margin-bottom: 40px;
+		padding: 6px 20px;
+	}
+	.footer-area {
+		text-align: center;
+	}
+	.footer-area ul li {
+		padding: 10px;
+	}
+	.footer-area .text-right {
+		text-align: center;
+	}
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.logo img {
+		padding: 30px 0;
+	}
+	.logo {
+		text-align: center
+	}
+	.logo a {
+		padding: 0;
+	}
+	.mainmenu ul {
+		text-align: center;
+		float: none;
+	}
+	.mainmenu ul li {
+		padding-left: 10px;
+	}
+	.mainmenu li a {
+		padding: 0 0 30px;
+		font-size: 10px;
+	}
+	.blog-fatured-content.fatured-bg-1 {
+		margin-bottom: 60px;
+	}
+	.single-blog-box h2 {
+		margin-bottom: 30px;
+		font-size: 18px;
+	}
+	.blog-content p {
+		margin: 0 0 30px;
+	}
+	.single-blog-box {
+		margin-bottom: 70px;
+	}
+	.section-padding {
+		padding: 80px 0 0;
+	}
+	.loadmore-btn {
+		margin-bottom: 40px;
+		padding: 6px 20px;
+	}
+	.footer-area {
+		text-align: center;
+	}
+	.footer-area ul li {
+		padding: 10px;
+	}
+	.footer-area .text-right {
+		text-align: center;
+	}
+}
