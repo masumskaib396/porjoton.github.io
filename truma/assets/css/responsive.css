@@ -1,0 +1,134 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.hearo-text h1 {
+    font-size: 40px;
+}
+
+.hearo-text {
+    padding-top: 300px;
+}
+
+.single-promo-box:hover .single-promo-box-hover {
+    bottom: 30px;
+}
+.single-service-box {
+    height: 230px;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.frechad-contect {
+    margin-bottom: 80px;
+}
+
+.col-md-7 .section-title {
+    width: 450px;
+}
+.section-padding.gray-bg {
+    padding-bottom: 40px;
+}
+.single-wiget {
+    margin-bottom: 30px;
+}
+
+}
+    
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.col-md-7 .section-title {
+    width:  auto;
+}
+
+.company-logo-carousel .owl-nav,.company-logo-carousel .owl-nav div {
+    display: none;
+}
+
+.search-bar {
+0PX:padding:;}
+
+.search-bar {
+    padding:  0px;
+    padding-top: 11px;
+    text-align: right;
+}
+
+nav.mean-nav {
+}
+
+nav.mean-nav a {
+    width: 200px;
+}
+
+.mean-container .mean-nav ul li {
+}
+
+.hearo-text h1 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.hearo-text h4 {
+    font-size: 12px;
+}
+
+.single-promo-box {
+    width:  100%;
+    margin-bottom: 30px;
+}
+
+.single-service-box {
+    height:  250px;
+    margin-bottom: 30px;
+}
+
+.section-padding {
+    padding: 100px 0px;
+}
+.hearo-text {
+    padding: 200px 0px;
+}
+
+
+.frechad-contect {
+    margin-bottom: 50px;
+}
+
+.f-small-bg {
+    position:  relative;
+    width:  auto;
+    margin-bottom: 30px;
+}
+
+.frechad-small-text {
+    padding: 0px;
+}
+
+.section-title h1 {
+    font-size: 30px;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.wiget-about {
+    margin-right:  0px;
+    margin-bottom: 30px;
+}
+.mobile-right {
+    text-align: left;
+    margin-top: 20px;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+
+}
