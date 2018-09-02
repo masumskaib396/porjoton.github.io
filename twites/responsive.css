@@ -1,0 +1,290 @@
+/* Medium lay out: 1200px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+.mobile-menu{
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+}
+
+	
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+
+.mobile-menu{
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+}
+
+	
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+.main-menu li a {
+    padding: 16px 8px;
+}
+.slider-text {
+    padding: 100px 0;
+}
+.slider-text h2 {
+    font-size: 40px;
+}
+.section_padding {
+    padding: 50px 0;
+}
+h2 {
+    font-size: 25px;
+}	
+h1 {
+    font-size: 30px;
+}
+.absulate-image img:nth-child(2) {
+  max-width: 200px !important;
+  height: auto;
+}
+
+.absulate-image img:nth-child(3) {
+  max-width: 300px !important;
+  height: auto;
+  bottom: 120px;
+}
+.content-button {
+    height: 100px;
+}
+.content-button {
+    text-align: left;
+}
+.larz {
+    height: 400px;
+}
+.protfolio-item {
+    margin-bottom: 30px;
+}
+.footer-area .col-md-3, .footer-area .col-md-2 {
+    margin-bottom: 30px;
+}
+
+
+.mobile-menu{
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+}
+
+
+	
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	
+.main-menu {
+    display: none;
+}
+.slider-text {
+    padding: 70px 0;
+}
+h2 {
+    font-size: 20px;
+}	
+h1 {
+    font-size: 25px;
+}
+.slider-text h2 {
+    font-size: 20px;
+}
+.video-box {
+    margin: 30px 60px;
+}
+.box-button {
+    padding: 10px 25px;
+}
+.section_padding {
+    padding: 40px 0;
+}
+.top-descrip {
+    padding-top: 0;
+}
+.absulate-image img:nth-child(2) {
+    position: relative;
+    top: 0;
+	right: auto;
+	left: 0;
+}
+.absulate-image{
+	margin-left: 0;
+	overflow: hidden;
+	height: auto;
+}
+.absulate-image img:nth-child(3) {
+    position: relative;
+    top: auto;
+	left: 0;
+		right: auto;
+}
+.absulate-image img{
+	min-width: 100%;
+	margin-bottom: 10px;
+}	
+.serice-bg::before {
+    height: 300px;
+    width: 100%;
+}
+
+.total-wrap1 {
+    padding-left: 90px;
+	padding-bottom: 15px;
+}
+.total-wrap1:hover::after {
+display: none;
+}
+.total-wrap1:nth-child(1){
+	margin-top: 330px;
+}	
+
+.content-button {
+    height: 100px;
+}
+.content-button {
+    text-align: left;
+}
+.larz {
+    height: 300px;
+}
+.protfolio-item {
+    margin-bottom: 20px;
+}
+.footer-area .col-md-3, .footer-area .col-md-2 {
+    margin-bottom: 30px;
+}
+
+
+/*Slick Nav Area Customize Css*/
+
+.slicknav_btn{
+	margin: 0;
+	background: none;
+	float: none;
+	padding: none;
+	border-radius: 0;
+}
+.slicknav_btn{
+	padding: 0;
+}
+
+.slicknav_menu{
+	background: none;
+}
+.slicknav_menu .slicknav_menutxt{
+	display: none;
+}
+.slicknav_nav .slicknav_row:hover {
+    border-radius: 0;
+    background: #000;
+    margin: 0;
+}
+.slicknav_nav{
+	background: #0CBCC1;
+}
+
+
+.slicknav_nav a:hover {
+    border-radius: 0;
+   background:none;
+}
+.slicknav_nav a, .slicknav_nav .slicknav_row{
+	transition: .3s;
+}
+.slicknav_menu .slicknav_icon {
+    float: none;
+    width:0;
+    height:0;
+    margin: 0;
+}
+.slicknav_menu {
+    font-size: inherit;
+    padding: 0;
+}
+.slicknav_menu .slicknav_icon-bar {
+    display: block;
+    width: 30px;
+    height: 4px;
+    box-shadow: 0 0 0;
+    margin-bottom: 5px;
+}
+.slicknav_nav .slicknav_row {
+    margin: 0;
+}
+.slicknav_menu {
+    display: block;
+    text-align: center;
+	margin-top: 15px;
+}
+.slicknav_btn.slicknav_collapsed {
+    display: inline-block;
+}
+
+.slicknav_btn {
+    display: inline-block;
+}
+
+.sub-menu-bg li a {
+	border-left: 3px solid transparent;
+}
+.sub-menu-bg li a:hover {
+    background: #222;
+	border-left: 3px solid #fff;
+}
+
+.sub-menu-bg li a > a:hover {
+	border-left: none;
+	background: none;
+}
+.sub-menu-bg li a > a {
+	border-left: none;
+	background: none;
+}
+
+
+.slicknav_nav li a:hover {
+    background: #000;
+    margin: 0;
+}
+.slicknav_nav li a{
+    margin: 0;
+}
+
+.slicknav_nav li a > a:hover {
+    background: none;
+}
+.slicknav_nav li a > a {
+    background: none;
+}
+.sub-menu-bg .col-md-3 h5 {
+    padding: 10px;
+    background: #000;
+    cursor: pointer;
+}
+
+
+	
+}
+
+/* Mobile Width Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+	
+	
+}
